@@ -30,3 +30,7 @@
   --color-gold-900: oklch(0.233 0.029 79.32);
   --color-gold-950: oklch(0.177 0.022 80.82);
 }
+
+.hover-effect {
+  @apply hover:opacity-70 hover:cursor-pointer;
+}
