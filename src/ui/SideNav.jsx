@@ -1,4 +1,8 @@
-function SideNav({ showMenu }) {
+import { useContext } from "react";
+import { MenuContext } from "../pages/App";
+
+function SideNav() {
+  const { showMenu, setShowMenu } = useContext(MenuContext);
   return (
     <div>
       <ul
