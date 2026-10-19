@@ -10,7 +10,7 @@ function App() {
 
   return (
     <MenuContext.Provider value={{ showMenu, setShowMenu }}>
-      <div className="bg-linear-to-l from-brand-800 from-35% to-gold-700 to-90% min-h-screen min-w-80 flex flex-col">
+      <div className="relative bg-linear-to-l from-brand-800 from-35% to-gold-700 to-90% min-h-screen min-w-80 flex flex-col">
         <Nav />
         <SideNav />
         <Footer />
