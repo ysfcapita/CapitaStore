@@ -6,7 +6,7 @@ import { MenuContext } from "../pages/App";
 function Nav() {
   const { showMenu, setShowMenu } = useContext(MenuContext);
   return (
-    <div className="grid grid-cols-[1fr_10fr_1fr] sticky top-0 shadow-xl bg-linear-to-r from-brand-800 from-35% to-gold-700 to-90% text-white h-20 justify-center items-center px-3">
+    <div className="z-50 grid grid-cols-[1fr_10fr_1fr] sticky top-0 shadow-xl bg-linear-to-r from-brand-800 from-35% to-gold-700 to-90% text-white h-20 justify-center items-center px-3">
       <Menu
         onClick={() => setShowMenu(!showMenu)}
         className={`hover-effect ${!showMenu ? "hover:cursor-pointer" : "hidden"}`}

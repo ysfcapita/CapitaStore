@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+body {
+  color: white;
+}
+
 @theme {
   --font-sans: "Cairo", sans-serif;
 
